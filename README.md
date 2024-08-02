@@ -48,5 +48,62 @@ CREATE TABLE compras_productos (
 
 ## EJERCICIOS 
 
+Crear un procedimiento almacenado que permita insertar un nuevo cliente en la tabla
+clientes . El procedimiento debe aceptar como parámetros el ID del cliente, nombre,
+apellidos, número de celular, dirección y correo electrónico.
+
+~~~ sql
+~~~
+
+Crear un procedimiento almacenado que permita actualizar la información de un cliente
+existente en la tabla clientes . El procedimiento debe aceptar como parámetros el ID del
+cliente, nombre, apellidos, número de celular, dirección y correo electrónico.
+~~~ sql
+~~~
+
+
+Crear un procedimiento almacenado que permita eliminar un cliente de la tabla clientes . El
+procedimiento debe aceptar como parámetro el ID del cliente.
+~~~ sql
+~~~
+
+Crear un procedimiento almacenado que permita insertar una nueva compra en la tabla
+compras . El procedimiento debe aceptar como parámetros el ID del cliente, fecha de la
+compra, medio de pago, comentario y estado de la compra.
+~~~ sql
+~~~
+
+Crear un procedimiento almacenado que permita insertar un producto en una compra
+existente en la tabla compras_productos . El procedimiento debe aceptar como parámetros
+el ID de la compra, ID del producto, cantidad, total y estado del producto en la compra.
+~~~ sql
+~~~
+
+Crear un procedimiento almacenado que permita obtener la información de una compra
+específica de la tabla compras . El procedimiento debe aceptar como parámetro el ID de la
+compra y retornar los detalles de la compra, incluyendo el ID del cliente, fecha, medio de
+pago, comentario y estado.
+~~~ sql
+~~~
+
+Crear un procedimiento almacenado que permita insertar un nuevo producto en la tabla
+productos . El procedimiento debe aceptar como parámetros el nombre del producto, ID de
+la categoría, código de barras, precio de venta, cantidad en stock y estado del producto.
+~~~ sql
+~~~
+
+
+Crear un procedimiento almacenado que permita actualizar la información de un producto
+existente en la tabla productos . El procedimiento debe aceptar como parámetros el ID del
+producto, nombre, ID de la categoría, código de barras, precio de venta, cantidad en stock y
+estado del producto.
+~~~ sql
+~~~
+
+Crear un procedimiento almacenado que permita obtener todos los productos de una
+categoría específica en la tabla productos . El procedimiento debe aceptar como parámetro
+el ID de la categoría y retornar los detalles de los productos, incluyendo el ID del producto,
+nombre, precio de venta, cantidad en stock y estado.
+
 ~~~ sql
 ~~~
